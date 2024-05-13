@@ -15,6 +15,9 @@ const email=require('./Routes/email');
 const upload=require('./Routes/upload');
 
 const app = new express();
+const path = require('path'); 
+app.use(express.static(path.join(__dirname,'/build')));
+
 const PORT = process.env.PORT ;
 
 app.use(morgan('dev'));
@@ -26,6 +29,10 @@ app.use('/api',adminRouter)
 app.use('/api',email)
 app.use('/api',sdashRouter)
 app.use('/api',upload)
+
+app.get('*',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/build/index.html')); 
+})
 
 app.listen(PORT,()=>{
     console.log(`Server is up and running on port ${PORT}`);
