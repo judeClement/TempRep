@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.77f4250b.css",
+    "main.js": "/static/js/main.837773a7.js",
+    "static/js/453.d855a71b.chunk.js": "/static/js/453.d855a71b.chunk.js",
+    "static/media/adminlog.gif": "/static/media/adminlog.51284f408e51e7c2946a.gif",
+    "static/media/studentlogin09.gif": "/static/media/studentlogin09.836cb67a3f79f322ff46.gif",
+    "static/media/studentdashboard000.gif": "/static/media/studentdashboard000.6d23790f44b34c73e380.gif",
+    "static/media/Picsart_24-04-22_01-24-52-405.jpg": "/static/media/Picsart_24-04-22_01-24-52-405.b0c4cd318087d0c7fc2f.jpg",
+    "static/media/login.png": "/static/media/login.5faf09a7795d28bf5a2b.png",
+    "static/media/LOGO_ICTAK.png": "/static/media/LOGO_ICTAK.cf73745ca2b64c502337.png",
+    "index.html": "/index.html",
+    "main.77f4250b.css.map": "/static/css/main.77f4250b.css.map",
+    "main.837773a7.js.map": "/static/js/main.837773a7.js.map",
+    "453.d855a71b.chunk.js.map": "/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77f4250b.css",
+    "static/js/main.837773a7.js"
+  ]
+}
